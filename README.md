@@ -1,6 +1,6 @@
 SQL Script
 в процессе бро
-
+```
 Модуль 1
 Удаляем столы, если они существуют
 DROP TABLE IF EXISTS material_types CASCADE;
@@ -43,7 +43,7 @@ CREATE TABLE product_workshops(
   workshop_id INT REFERENCES workshops(workshop_id),
   time_todo NUMERIC(2,2) NOT NULL
 );
-
+```
 или же
 
 ```
